@@ -9,25 +9,25 @@ const CarouselComponents = () => {
             <div id="item1" className="carousel-item w-full">
               <img
                 src="https://qph.cf2.quoracdn.net/main-qimg-38c6eb20967a8f8e9975432d4d11e52a"
-                className="w-full object-cover"
+                className="w-full object-center"
               />
             </div>
             <div id="item2" className="carousel-item w-full">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8OZzE7zSmmSEKidsNH0gE-Yk3_TKw5ivFGA&s"
-                className="w-full object-cover"
+                className="w-full object-center"
               />
             </div>
             <div id="item3" className="carousel-item w-full">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNxrc0IhR_lJOBNBnT8694xCOSKhvmqFnztw&s"
-                className="w-full object-cover"
+                className="w-full object-center"
               />
             </div>
             <div id="item4" className="carousel-item w-full">
               <img
                 src="https://play-lh.googleusercontent.com/MTh9mc0X1q7wP5VUqokkg4FAA-2jTzlrVBXcYS3AnScYdQgZjJ6H_PgzFuwVeEoIKfI=w526-h296-rw"
-                className="w-full object-cover"
+                className="w-full object-center"
               />
             </div>
           </div>

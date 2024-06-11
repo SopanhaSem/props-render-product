@@ -1,20 +1,17 @@
 import React from "react";
 
-const NewCard = ({ key, title, img, description }) => {
+const NewCard = ({ title, img, description, onRemove, id }) => {
   function handleClick() {
-    alert("thank You");
+    onRemove(id);
   }
   return (
     <div>
-      <div
-        key={key}
-        className="w-96  bg-base-100 shadow-xl rounded-lg mx-auto px-5"
-      >
+      <div className="w-96  bg-base-100 shadow-xl rounded-lg mx-auto px-5">
         <figure>
           <img
             className="w-full h-[300px] object-cover rounded-t-lg"
             src={img}
-            alt="Shoes"
+            alt={title}
           />
         </figure>
         <div className="p-4">
